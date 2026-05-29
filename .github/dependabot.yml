@@ -16,7 +16,7 @@ updates:
                   - patch
 
     - package-ecosystem: "npm"
-      directory: "/tools"
+      directory: "/"
       schedule:
           interval: "weekly"
       groups:

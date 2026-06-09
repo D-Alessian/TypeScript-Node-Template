@@ -63,7 +63,8 @@ export default defineConfig(
             "simple-import-sort/imports": "error",
             "simple-import-sort/exports": "error",
 
-            "@typescript-eslint/consistent-type-imports": "error",
+            "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+	    "@typescript-eslint/consistent-type-imports": "error",
             "@typescript-eslint/no-floating-promises": "error",
             "@typescript-eslint/no-misused-promises": "error",
             "@typescript-eslint/no-unnecessary-condition": "error",
